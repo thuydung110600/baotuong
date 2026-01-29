@@ -1,0 +1,170 @@
+/* ===== RESET CƠ BẢN ===== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #e3f2fd, #bbdefb);
+    margin: 0;
+    padding: 20px;
+    color: #263238;
+}
+
+/* ===== HEADER ===== */
+.cao {
+    background: linear-gradient(to right, #1976d2, #0d47a1);
+    border-radius: 12px;
+    padding: 22px;
+    margin-bottom: 35px;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+}
+
+.trang_giua {
+    text-align: center;
+    color: #ffffff;
+    margin: 6px 0;
+}
+
+/* ===== TIÊU ĐỀ MỤC ===== */
+.tieude {
+    font-weight: bold;
+    font-size: 18px;
+    color: #0d47a1;
+    background: #e3f2fd;
+    border-left: 6px solid #1976d2;
+    padding: 10px 14px;
+    margin: 30px 0 15px;
+    border-radius: 5px;
+}
+
+/* ===== SECTION ===== */
+section {
+    margin-bottom: 30px;
+}
+
+/* ===== ĐOẠN VĂN ===== */
+.chutim {
+    text-align: justify;
+    line-height: 1.7;
+    background: #ffffff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* ===== DANH SÁCH (UL) ===== */
+ul.chutim {
+    margin-top: 10px;
+    padding-left: 40px;
+}
+
+ul.chutim li {
+    margin-bottom: 8px;
+}
+
+/* ===== TRANH ẢNH + VIDEO ===== */
+.noidung {
+    text-align: center;
+    margin: 20px 0 30px;
+}
+
+.noidung img {
+    width: 200px;
+    height: 280px;
+    object-fit: cover;
+    margin: 6px;
+    border-radius: 8px;
+    border: 3px solid #e3f2fd;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+}
+
+.noidung video {
+    margin-top: 14px;
+    border-radius: 8px;
+    border: 3px solid #e3f2fd;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+}
+
+/* ===== BẢNG ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+th {
+    background: #1976d2;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+tr:nth-child(even) {
+    background: #f1f7fd;
+}
+
+.tiendo {
+    color: #0d47a1;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* ===== GÓP Ý ===== */
+.gopy {
+    background: #e3f2fd;
+    border-left: 6px solid #1976d2;
+    padding: 18px;
+    width: 65%;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+
+.gopy label {
+    font-weight: bold;
+    color: #0d47a1;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0 14px;
+    border-radius: 5px;
+    border: 1px solid #90caf9;
+    outline: none;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #1976d2;
+    box-shadow: 0 0 6px rgba(25,118,210,0.4);
+}
+
+/* ===== BUTTON ===== */
+button {
+    background: #1976d2;
+    color: white;
+    border: none;
+    padding: 8px 22px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #0d47a1;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+    margin-top: 45px;
+    text-align: center;
+    font-size: 13px;
+    color: #37474f;
+    padding-top: 12px;
+    border-top: 1px solid #b0bec5;
+}
