@@ -1,4 +1,4 @@
-/* ===== RESET CƠ BẢN ===== */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(to bottom, #e3f2fd, #bbdefb);
@@ -7,7 +7,7 @@ body {
     color: #263238;
 }
 
-/* ===== HEADER ===== */
+
 .cao {
     background: linear-gradient(to right, #1976d2, #0d47a1);
     border-radius: 12px;
@@ -22,7 +22,7 @@ body {
     margin: 6px 0;
 }
 
-/* ===== TIÊU ĐỀ MỤC ===== */
+
 .tieude {
     font-weight: bold;
     font-size: 18px;
@@ -34,12 +34,12 @@ body {
     border-radius: 5px;
 }
 
-/* ===== SECTION ===== */
+
 section {
     margin-bottom: 30px;
 }
 
-/* ===== ĐOẠN VĂN ===== */
+
 .chutim {
     text-align: justify;
     line-height: 1.7;
@@ -49,7 +49,7 @@ section {
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-/* ===== DANH SÁCH (UL) ===== */
+
 ul.chutim {
     margin-top: 10px;
     padding-left: 40px;
@@ -59,7 +59,7 @@ ul.chutim li {
     margin-bottom: 8px;
 }
 
-/* ===== TRANH ẢNH + VIDEO ===== */
+
 .noidung {
     text-align: center;
     margin: 20px 0 30px;
@@ -82,7 +82,7 @@ ul.chutim li {
     box-shadow: 0 3px 8px rgba(0,0,0,0.25);
 }
 
-/* ===== BẢNG ===== */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -114,7 +114,7 @@ tr:nth-child(even) {
     text-align: center;
 }
 
-/* ===== GÓP Ý ===== */
+
 .gopy {
     background: #e3f2fd;
     border-left: 6px solid #1976d2;
@@ -144,7 +144,7 @@ textarea:focus {
     box-shadow: 0 0 6px rgba(25,118,210,0.4);
 }
 
-/* ===== BUTTON ===== */
+
 button {
     background: #1976d2;
     color: white;
@@ -159,7 +159,6 @@ button:hover {
     background: #0d47a1;
 }
 
-/* ===== FOOTER ===== */
 .footer {
     margin-top: 45px;
     text-align: center;
@@ -168,3 +167,4 @@ button:hover {
     padding-top: 12px;
     border-top: 1px solid #b0bec5;
 }
+
