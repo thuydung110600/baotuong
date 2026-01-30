@@ -66,8 +66,8 @@ ul.chutim li {
 }
 
 .noidung img {
-    width: 30%;
-    max-width: 320px;
+    width: 260px;
+    max-width: 360px;
     height: auto;
     margin: 10px;
     border-radius: 10px;
@@ -168,6 +168,7 @@ button:hover {
     padding-top: 12px;
     border-top: 1px solid #b0bec5;
 }
+
 
 
 
